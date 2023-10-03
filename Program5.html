@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <title>Progam5</title>
+         <link href="mystyles.css" rel="stylesheet"/>
+              
+    </head>
+    
+<body>
+        <body style="background-color: #FFEFD5;"></body>
+        
+  <div class="Backsssss">
+    <button><a href="indexx.html">🏠</a></a></button>
+       </div>      
+        
+        <div id="prog5">
+            <h2>BRAIN STORMING</h2>
+            </div>
+            
+        <div class="five">
+            <label for="num1">Enter the First number</label>
+ <br> <h2><input type="Number" id='num1'/> <br/> </h2>
+           <label for="num2">Enter the Second number</label>
+           <br><h2><input type="Number" id='num2'/><br/></h2>
+ <label for="num3">Enter the Third number</label>
+           <br><h2><input type="Number" id='num3'/><br/></h2>  <label for="num4">Enter the Fourth number</label>
+           <br><h2><input type="Number" id='num4'/><br/></h2>
+   <label for="num5">Enter the Fifth number</label>
+           <br><h2><input type="Number" id='num5'/><br/></h2>
+        </div>
+        
+        
+       <div class="clicksssss">
+     <h2><button onclick="compare()"> check</button></h2>
+         </div>
+        
+         <div class="clearsssss">
+     <h3><button on click="ClearFields()">Clear</button></h3>
+       </div>
+        
+       <div class="fivee">
+        <h1 id='result'></h1>
+       </div>
+    
+       
+       <div class="creatorsssss">
+       <h3>Creations of:<u> Jovy Mae Colete</u></h3>
+              <h4>BSIT-2Y</h4>
+        </div>
+        
+        
+   <script>
+      
+function compare() {
+var num1 = parseFloat(document.getElementById('num1').value);
+var num2 = parseFloat(document.getElementById('num2').value);
+var num3 = parseFloat(document.getElementById('num3').value);
+var num4 = parseFloat(document.getElementById('num4').value);
+var num5 = parseFloat(document.getElementById('num5').value);
+
+ if (num3 > num1) {
+                var result = num3 * num1 * num2 * num4 * num5;
+                document.getElementById('result').innerHTML = 'Result: ' + result;
+            } else if (num1 > num2) {
+                var result = num1 * num4 * num5;
+                document.getElementById('result').innerHTML = 'Result: ' + result;
+            } else {
+                document.getElementById('result').innerHTML = 'Bye';
+     
+}
+
+         function ClearFields() {
+ document.getElementById("num1").value = "";
+ document.getElementById("num2").value = "";
+ document.getElementById("num3").value = "";
+ document.getElementById("num4").value = "";
+ document.getElementById("num5").value = "";
+ document.getElementById("result").innerHTML = "";
+
+}
+
+}
+</script>
+  
+  
+    </body>
+    
+    
+</html>

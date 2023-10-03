@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <title>Progam6</title>
+         <link href="mystyles.css" rel="stylesheet"/>          
+    </head>
+    
+<body>
+        <body style="background-color: #FFEFD5;"></body>
+     
+     <div class="Backss">
+    <button><a href="indexx.html">🏠</a></a></button>
+       </div>        
+        
+        <div id="prog6">
+            <h2>LET'S VOTE</h2>
+            </div>
+           
+            
+        <div class="six">
+            <label for="fname">Enter your Fullname</label>
+ <h2><input type="text" id='fname'/></h2>
+       <label for="num">Enter your Age</label>
+ <h2><input type="number" id='num'/></h2>
+        </div> 
+        
+       <div class="clickssssss">
+     <h2><button onclick="vote()"> check</button></h2>
+         </div>
+         
+    <div class="sixx">
+        <h1 id= "result"></h1>
+       </div>
+        
+
+       <div class="creatorssssss">
+       <h3>Creations of:<u> Jovy Mae Colete</u></h3>
+              <h4>BSIT-2Y</h4>
+        </div>
+     
+     
+   
+<script>
+function vote() {
+     var fname=parseFloat(document.getElementById('fname').value);
+     var num=parseFloat(document.getElementById('num').value);
+     
+     if (isNaN(num)) {
+        alert("Please enter valid name and age.");
+        return;
+   	 }
+     
+   if(num > 18){
+        document.getElementById('result').innerHTML= 'Congratulations, You are allowed to VOTE';
+        document.getElementById('result').style.color= "GREEN";
+       }
+       
+   else{
+         document.getElementById('result').innerHTML= 'Sorry, but you are not allowed to vote.';         
+         document.getElementById('result').style.color= "RED";
+       }
+                          
+       
+  }     
+</script>  
+     
+</body>
+
+
+</html>

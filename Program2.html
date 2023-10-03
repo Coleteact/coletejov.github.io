@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <title>Progam2</title>
+         <link href="mystyles.css" rel="stylesheet"/>          
+    </head>
+    
+<body>
+        <body style="background-color: #FFEFD5;"></body>
+     
+     <div class="Backss">
+    <button><a href="indexx.html">🏠</a></a></button>
+       </div>        
+        
+        <div id="prog2">
+            <h2>POSITIVE or NEGATIVE</h2>
+            </div>
+           
+            
+        <div class="two">
+            <label for="num">Enter a number</label>
+ <h2><input type="Number" id='num'/></h2>
+        </div>
+        
+        
+       <div class="clickss">
+     <h2><button onclick="check()"> check</button></h2>
+         </div>
+         
+                <div class="clearss">
+    <h3><button on click ='Clearfields()'> clear</button></h3>
+     </div>
+         
+            <div class="twoo">
+        <h1 id= "result"> Its</h1>
+       </div>
+         
+   
+       <div class="creators">
+       <h3>Creations of:<u> Jovy Mae Colete</u></h3>
+              <h4>BSIT-2Y</h4>
+        </div>
+     
+     
+   
+<script>
+function check() {
+     var num=parseFloat(document.getElementById('num').value);
+     
+   if(num > 20){
+        document.getElementById('result').innerHTML= 'POSITIVE';
+        document.getElementById('result').style.color= "GREEN";
+       }
+       
+   else{
+         document.getElementById('result').innerHTML= 'NEGATIVE';         
+         document.getElementById('result').style.color= "RED";
+       }
+                          
+      
+function Clearfields() {
+       document.getElementById("num").value= "";          
+       document.getElementById("result").innerHTML= "";
+           }
+       
+  }     
+</script>  
+     
+</body>
+
+
+</html>

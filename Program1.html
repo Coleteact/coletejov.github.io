@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <title>Progam1</title>
+         <link href="mystyles.css" rel="stylesheet"/>
+       
+    </head>
+    
+<body>
+    <body style="background-color: #FFEFD5;"></body>
+       
+       
+           <div class="Back">
+    <button><a href="indexx.html">🏠</a></a></button>
+       </div>
+       
+        <div id="prog1">
+            <h2>THE SUM OF</h2>
+            </div>
+            
+        <div class="one">
+            <label for="uno">FIRST NUMBER</label>
+ <br> <h2><input type="Number" id='uno'/><br/> </h2>
+        
+         <label for="too">SECOND NUMBER</label>
+    <br><h3>  <input type="Number" id='too'/><br/></h3>
+        </div>
+        
+        
+       <div class="click">
+        <button onclick='addTwoNums()'> Add</button>
+        </div>
+        
+       <div class="oneee">      
+        <h1 id='result'></h1>
+       </div>
+       
+       <div class="clear">
+       <h3><button onclick='ClearFields()'> clear</button></h3>
+       </div>
+       
+       
+       <div class="creator">
+       <h3><u> Creations of: Jovy Mae Colete</u></h3>
+              <h4>BSIT-2Y</h4>
+        </div>
+   <script>
+       function addTwoNums()
+       {
+       var A=parseFloat(document.getElementById('uno').value);
+       var B=parseFloat(document.getElementById('too').value);
+       var result= A+B;
+ 
+ document.getElementById('result').innerHTML = '<u>' + result + '</u>'  
+ 
+       }
+        
+        function ClearFields()
+        {
+            document.getElementById("uno").value= "";
+            document.getElementById("too").value= "";
+            document.getElementById("result").innerHTML= "";
+             
+        }
+       
+  
+  
+  </script>
+  
+  
+  
+    </body>
+    
+    
+</html>

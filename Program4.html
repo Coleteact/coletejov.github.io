@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Program4</title>
+     <link href="mystyles.css" rel="stylesheet"/>
+</head>
+    <body>
+        
+        <body style="background-image: Qp.jpg;"> </body>
+       
+ 
+    <div class="Backssss">
+    <button><a href="indexx.html">🏠</a></a></button>
+       </div>      
+        
+      <div id="prog4">
+          <h2> Let's compute your Quizzes.</h2>
+         
+      </div>
+        
+ <div class="four">
+
+       <b><label for="Q1"> Quiz 1</label></b>
+ <br> <h3><input type="Number" id='Q1'/><br/> </h3>
+        
+         <label for="Q2"> Quiz 2</label>
+    <br><h3> <input type="Number" id='Q2'/><br/></h3>
+        
+         <label for="Q3"> Quiz 3</label>
+   <br> <h3><input type="Number" id='Q3'/><br/></h3>
+      
+         <label for="Q4"> Quiz 4</label>
+  <br><h3> <input type="Number" id='Q4'/><br/></h3>
+        
+        
+        </div>
+        
+  
+   
+   <div class="clickssss">
+ <h2>  <button onclick="average()">Compute</button></h2>
+     </div>
+  
+   
+      <div class="fourr">
+   <H3 id="average">your final average is</H3>
+ </div>
+  
+   <div class="fourrr">
+   <h2 id="result"></h2>
+   </div>
+   
+   <div class="creatorssss">
+       <h3><u> Creations of: Jovy Mae Colete</u></h3>
+              <h4>BSIT-2Y</h4>
+        </div>
+   
+   
+   <div class="clearssss">
+      <h3><button onclick="ClearFields()">Clear</button></h3>
+  </div>
+   
+   
+   <script>
+       function average()
+       {
+       var A=parseFloat(document.getElementById('Q1').value);
+       var B=parseFloat(document.getElementById('Q2').value);
+       var C=parseFloat(document.getElementById('Q3').value);
+       var D=parseFloat(document.getElementById('Q4').value);
+      
+       var average= (A+B+C+D)/4;
+       document.getElementById('average').innerHTML = '<u>' + average + '</u>';
+      
+       if ( average > 75){
+   document.getElementById('result').innerHTML= 'Congratulations!You Passed.';
+       document.getElementById('result').style.color = "GREEN";
+           }
+          
+           else
+           {
+           document.getElementById('result').innerHTML='Sorry, Better luck next time.';
+           document.getElementById('result').style.color = "RED";
+           }
+           
+       }
+       
+       
+   function ClearFields() {
+document.getElementById("Q1").value = "";
+document.getElementById("Q2").value = "";
+document.getElementById("Q3").value = "";
+document.getElementById("Q4").value = "";
+document.getElementById("average").innerHTML = "";
+document.getElementById('result').innerHTML = "";
+    }
+    
+    
+   </script>
+   
+    </body>
+   
+    
+</html>

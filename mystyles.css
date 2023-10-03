@@ -1,0 +1,1088 @@
+body{
+    background-color: #FFEFD5;
+}
+
+#Home{
+    text-align: Center;
+    color: Red;
+    font-family: 'Times New Roman', serif;
+    font-style: Bold;
+}
+
+#homie{
+    display: block;
+    text-align: Center;
+    color: white;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+  
+}
+
+.isa{
+    display: block;
+    text-align: Center;
+    color: black;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 3px;
+    background-color: pink;
+    border-style: medium;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.dalawa{
+    display: block;
+    text-align: Center;
+    color: black;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 3px;
+    background-color: lightpink;
+    border-style: medium;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.tatlo{
+    display: block;
+    text-align: Center;
+    color: black;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 3px;
+    background-color: pink;
+    border-style: medium;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.apat{
+    display:block;
+    text-align: Center;
+    color: black;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 3px;
+    background-color: lightpink;
+    border-style: medium;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.lima{
+    display: block;
+    text-align: Center;
+    color: black;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 3px;
+    background-color: pink;
+    border-style: medium;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.anim{
+    display: block;
+    text-align: Center;
+    color: black;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 3px;
+    background-color: lightpink;
+    border-style: medium;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.pito{
+    display: block;
+    text-align: Center;
+    color: black;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 3px;
+    background-color: pink;
+    border-style: medium;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.walo{
+    display: block;
+    text-align: Center;
+    color: black;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 3px;
+    background-color: lightpink;
+    border-style: medium;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.syam{
+    display: block;
+    text-align: Center;
+    color: black;
+    font-family: 'Courier New', serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px 3px;
+    background-color: pink;
+    border-style: medium;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.me h2{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', sanserif;
+    font-style: bold;
+}
+
+.me h3{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-family: 'Times New Roman', sanserif;
+    font-style: italic;
+}
+
+
+#prog1 h2{
+    text-align: center;
+    color: blue;
+    font-family: 'Times New Roman', serif;
+    font-style: bold;
+}
+
+.one{
+    text-align:center;
+    color: purple;
+    font-family: 'Courier new', serif;
+    text-decoration: underline;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.one input[type=Number] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.click{
+  text-align: center;
+  justify-content: center;
+    
+}
+.click button {
+  background-color: Pink;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+ }
+
+.click button:hover {
+  background-color: white;
+  color: black;
+}
+
+.click button:active {
+  background-color: Pink;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+  
+  
+.oneee h1{
+    text-align: center;
+    font-style: italic;
+    color: green;
+    font-size: 45px;
+    font-family: 'Courier new', serif;
+        }
+    
+.clear h3{
+    text-align: right;
+}
+
+.clear button {
+  background-color: Gray;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+}
+
+
+.clear button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clear button:active {
+  background-color: gray;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+
+
+
+.creator h3{
+   text-align:center;
+   color: pink;
+   font-style: italic-bold;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 24px;
+}
+
+.creator h4{
+  text-align: center;
+  color: pink;
+  font-style: italic-bold;
+  font-family: 'Arial', serif;
+}
+
+
+#prog2 h2{
+  text-align: center;
+  font-family: 'Times New Roman', serif;   
+  color: Blue;
+}
+.two{
+    text-align:center;
+    color: purple;
+    font-family: 'Courier new', serif;
+    text-decoration: underline;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.two input[type=Number] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.clickss h2{
+    text-align: center;
+}
+
+.clickss button {
+  background-color: Pink;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+ }
+
+.clickss button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clickss button:active {
+  background-color: Pink;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+  
+.clearss h3{
+    text-align: right;
+}
+
+.clearss button {
+  background-color: gray;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+  
+ }
+
+.clearss button:hover {
+  background-color: white;
+  color: gray;
+}
+
+.clearss button:active {
+  background-color: gray;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+
+
+.twoo h1{
+    text-align: center;
+    font-style: bolds;
+    font-family: 'Times New Roman', serif;
+}
+
+.creators h3{
+   text-align:center;
+   color: Maroon;
+   font-weight: bold;
+   font-family: 'Brush Script MT', cursive;
+}
+
+.creators h4{
+  text-align: center;
+  color: Maroon;
+  font-style: italic-bold;
+}
+
+
+
+
+
+#prog3 h2{
+    justify-content: center;
+    text-align: center;
+    color: blue;
+    font-family: 'Times New Roman', serif;
+    font-style: bold;
+}
+
+
+.three{
+    text-align:center;
+    color: purple;
+    font-family: 'Courier new', serif;
+    text-decoration: underline;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.three input[type=Number] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.clicksss h2{
+    text-align: center;
+}
+
+.clicksss button {
+  background-color: Pink;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+ }
+
+.clicksss button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clicksss button:active {
+  background-color: Pink;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+  
+.clearsss h3{
+    text-align: right;
+}
+
+.clearsss button {
+  background-color: Gray;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+  
+ }
+
+.clearsss button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clearsss button:active {
+  background-color: gray;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+
+.threee h1{
+    text-align: center;
+    font-style: bolds;
+    font-family: 'Times New Roman', serif;
+}
+
+.creatorss h3{
+   text-align:center;
+   color: Maroon;
+   font-weight: bold;
+   font-family: 'Brush Script MT', cursive;
+}
+
+.creatorss h4{
+  text-align: center;
+  color: Maroon;
+  font-style: italic-bold;
+}
+
+
+
+
+#prog4 h2{
+  text-align: center;
+  font-family: 'Times New Roman', serif;   
+  color: Blue;
+}
+
+.four{
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Courier new', serif;
+}
+
+.four label[for=Q1]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.four label[for=Q2]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.four label[for=Q3]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.four label[for=Q4]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.four input[type=Number] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+
+.four h3{
+   text-align: center;
+   
+}
+
+.fourr H3{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    font-family: 'Courier new', serif;
+}
+
+
+.clickssss h2{
+    text-align:center;
+}
+
+.clickssss button {
+  background-color: Pink;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+ }
+
+.clickssss button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clickssss button:active {
+  background-color: Pink;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+  
+.creatorssss h3{
+   text-align:center;
+   color: Maroon;
+   font-weight: bold;
+   font-family: 'Brush Script MT', cursive;
+}
+
+.creatorssss h4{
+  text-align: center;
+  color: Maroon;
+  font-style: italic-bold;
+}
+  
+.clearssss h3{
+    text-align: right;
+}
+
+.clearssss button {
+  background-color: Gray;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+  
+ }
+
+.clearssss button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clearssss button:active {
+  background-color: gray;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+  
+  
+.h2{
+    text-align: center;
+}
+
+.fourrr{
+    text-align: center;
+    font-style: italic;
+    font-family:'Brush Script MT', cursive;
+    font-size: 24px;
+}
+
+
+
+#prog5 h2{
+  text-align: center;
+  font-family: 'Times New Roman', serif;   
+  color: Blue;
+}
+
+.five{
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Courier new', serif;
+}
+
+.five label[for=num1]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.five label[for=num2]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.five label[for=num3]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.five label[for=num4]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.five label[for=num5]{
+    color: purple;
+    text-decoration: underline;
+}
+
+
+.five input[type=Number] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+
+.five h3{
+   text-align: center;
+   
+}
+
+.fivee H3{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    font-family: 'Courier new', serif;
+}
+
+
+.clicksssss h2{
+    text-align:center;
+}
+
+.clicksssss button {
+  background-color: Pink;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+ }
+
+.clicksssss button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clicksssss button:active {
+  background-color: Pink;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+ 
+.creatorsssss h3{
+   text-align:center;
+   color: Maroon;
+   font-weight: bold;
+   font-family: 'Brush Script MT', cursive;
+}
+
+.creatorsssss h4{
+  text-align: center;
+  color: Maroon;
+  font-style: italic-bold;
+}
+
+
+.clearsssss{
+    text-align: right;
+}
+
+.clearsssss button {
+  background-color: Gray;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+  
+ }
+
+.clearsssss button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clearsssss button:active {
+  background-color: gray;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+  
+  
+.h2{
+    text-align: center;
+}
+
+.fivee{
+    text-align: center;
+    font-style: italic;
+    font-family:'Brush Script MT', cursive;
+    font-size: 24px;
+}
+
+#prog6 h2{
+  text-align: center;
+  font-family: 'Times New Roman', serif;   
+  color: Blue;
+}
+
+.six{
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Courier new', serif;
+}
+
+.six label[for=fname]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.six label[for=num]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.six input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+} 
+
+.six input[type=number] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+} 
+
+.clickssssss h2{
+    text-align:center;
+}
+
+.clickssssss button {
+  background-color: Pink;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+ }
+
+.clickssssss button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clickssssss button:active {
+  background-color: Pink;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+
+  
+.h2{
+    text-align: center;
+}
+
+.sixx{
+    text-align: center;
+    font-style: italic;
+    font-family:'Brush Script MT', cursive;
+    font-size: 24px;
+}
+ 
+.creatorssssss h3{
+   text-align:center;
+   color: Maroon;
+   font-weight: bold;
+   font-family: 'Brush Script MT', cursive;
+}
+
+.creatorssssss h4{
+  text-align: center;
+  color: Maroon;
+  font-style: italic-bold;
+}
+
+#prog7 h2{
+  text-align: center;
+  font-family: 'Times New Roman', serif;   
+  color: Blue;
+}
+
+.seven{
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Courier new', serif;
+}
+
+.seven label[for=fname]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.seven label[for=num]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.seven input[type=Number] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+} 
+
+.clickseven h2{
+    text-align:center;
+}
+
+.clickseven button {
+  background-color: Pink;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+ }
+
+.clickseven button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clickseven button:active {
+  background-color: Pink;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+
+  
+.h2{
+    text-align: center;
+}
+
+.sevenn{
+    text-align: center;
+    font-style: italic;
+    font-family:'Brush Script MT', cursive;
+    font-size: 24px;
+}
+ 
+.creatorseven h3{
+   text-align:center;
+   color: Maroon;
+   font-weight: bold;
+   font-family: 'Brush Script MT', cursive;
+}
+
+.creatorseven h4{
+  text-align: center;
+  color: Maroon;
+  font-style: italic-bold;
+}
+
+
+#prog8 h2{
+  text-align: center;
+  font-family: 'Times New Roman', serif;   
+  color: Blue;
+}
+
+.eight{
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Courier new', serif;
+}
+
+.eight label[for=num]{
+    color: purple;
+    text-decoration: underline;
+}
+
+.eight input[type=Number] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+} 
+  
+.clickeight h2{
+    text-align:center;
+}
+
+.clickeight button {
+  background-color: Pink;
+  border: 4px, black;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: bold;
+ }
+
+.clickeight button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clickeight button:active {
+  background-color: Pink;
+  box-shadow: 0 5px, black;
+  transform: translateY(4px);
+  }
+
+  
+.h2{
+    text-align: center;
+}
+
+.eightt{
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman', serif;
+    font-size: 20px;
+}
+ 
+.creatoreight h3{
+   text-align:center;
+   color: Maroon;
+   font-weight: bold;
+   font-family: 'Brush Script MT', cursive;
+}
+
+.creatoreight h4{
+  text-align: center;
+  color: Maroon;
+  font-style: italic-bold;
+}

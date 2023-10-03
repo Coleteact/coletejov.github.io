@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <title>Progam7</title>
+         <link href="mystyles.css" rel="stylesheet"/>          
+    </head>
+    
+<body>
+        <body style="background-color: #FFEFD5;"></body>
+     
+     <div class="Backss">
+    <button><a href="indexx.html">🏠</a></a></button>
+       </div>        
+        
+        <div id="prog7">
+            <h2>OPERATORS</h2>
+            </div>
+           
+            
+        <div class="seven">
+            <label for="num1">Enter the First number</label>
+ <h2><input type="Number" id='num1'/></h2>
+ <label for="num2">Enter the Second number</label>
+ <h2><input type="Number" id='num2'/></h2>
+        </div>
+        
+        
+       <div class="clickseven">
+     <h2><button onclick="calculate()"> check</button></h2>
+         </div>
+     
+            <div class="sevenn">
+        <h1 id= "result"></h1>
+       </div>
+         
+   
+       <div class="creatorseven">
+       <h3>Creations of:<u> Jovy Mae Colete</u></h3>
+              <h4>BSIT-2Y</h4>
+        </div>
+     
+    
+   
+<script>
+function calculate() {
+     var num1=parseFloat(document.getElementById('num1').value);
+     var num2=parseFloat(document.getElementById('num2').value);
+       
+         if (isNaN(num1) || isNaN(num2)) {
+        alert("Please enter valid a number.");
+        return;
+   	 }
+       
+       if(num1 === num2) {
+         var result=num1 - num2; 
+           document.getElementById('result').innerHTML = 'Result: ' + result;   
+        }else if(num1 > num2) {
+               var result=num1 + num2; 
+               document.getElementById('result').innerHTML = 'Result: ' + result;
+         } else{
+                var result=num1 * num2; 
+                document.getElementById('result').innerHTML = 'Result: ' + result;
+           }
+      
+
+  }     
+</script>  
+     
+</body>
+
+
+</html>

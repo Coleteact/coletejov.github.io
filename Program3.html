@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <title>Progam3</title>
+         <link href="mystyles.css" rel="stylesheet"/>
+              
+    </head>
+    
+<body>
+        <body style="background-color: #FFEFD5;"></body>
+        
+             <div class="Backsss">
+    <button><a href="indexx.html">🏠</a></a></button>
+       </div>
+       
+        <div id="prog3">
+            <h2>COMPARE THE TWO NUMBERS</h2>
+            </div>
+            
+        <div class="three">
+            <label for="num1">Enter the First number</label>
+ <br> <h2><input type="Number" id='num1'/> <br/> </h2>
+           <label for="num2">Enter the Second number</label>
+           <br><h2><input type="Number" id='num2'/><br/></h2>
+ 
+        </div>
+        
+        
+       <div class="clicksss">
+     <h2><button onclick="compare()"> check</button></h2>
+         </div>
+         
+         
+         <div class="clearsss">
+        <h3><button onclick="ClearFields()">clear</button></h3>
+        </div>
+        
+       <div class="threee">
+        <h1 id='result'></h1>
+       </div>
+       
+   
+       
+       <div class="creatorss">
+       <h3>Creations of:<u> Jovy Mae Colete</u></h3>
+              <h4>BSIT-2Y</h4>
+        </div>
+        
+   <script>
+      
+
+function compare() 
+{
+var num1 = parseFloat(document.getElementById('num1').value);
+var num2 = parseFloat(document.getElementById('num2').value);
+
+if (num1 > num2) {
+document.getElementById('result').textContent = 'First number is GREATER THAN the Second number.';
+document.getElementById('result').style.color = "ORANGE";
+                 } 
+                 
+                 
+else if (num1 < num2) {
+		 document.getElementById('result').textContent = 'First number is LESS THAN the Second number.';
+document.getElementById('result').style.color = "RED"; 
+                      }
+
+	else {
+	document.getElementById('result').textContent = 'Both numbers are EQUAL';
+document.getElementById('result').style.color = "GREEN";
+      }
+
+}
+
+
+
+function ClearFields() {
+document.getElementById("num1").value = "";
+document.getElementById("num2").value = "";
+document.getElementById("result").innerHTML = "";
+document.getElementById('result').style.color = "white";
+
+}
+
+</script>
+  
+  
+    </body>
+    
+    
+</html>
